@@ -1,0 +1,74 @@
+/* Containers */
+body { font-size: 100%; }
+.container{ width:990px; }
+
+/* cols Setup */
+.col-0,.col-1,.col-2,.col-3,.col-4,.col-5,.col-0-1,.col-0-1-2,.col-0-1-2-3,.col-0-1-2-3-4,.col-0-1-2-3-4-5,.col-1-2,.col-1-2-3,.col-1-2-3-4,.col-1-2-3-4-5,.col-2-3,.col-2-3-4,.col-2-3-4-5,.col-3-4,.col-3-4-5,.col-4-5,.col-6,.col-7,.col-8,.col-9,.col-6-7,.col-6-7-8,.col-6-7-8-9,.col-7-8,.col-7-8-9,.col-8-9{ display:inline; float:left; margin-left:30px; }
+
+/* 6-Col Grid Sizes */
+.col-0,.col-1,.col-2,.col-3,.col-4,.col-5{ width:136px; } /* Sixths */
+.col-0-1,.col-1-2,.col-2-3,.col-3-4,.col-4-5{ width:320px; } /* Thirds */
+.col-0-1-2-3,.col-1-2-3-4,.col-2-3-4-5{ width:634px; } /* Two-Thirds */
+.col-0-1-2-3-4,.col-1-2-3-4-5{ width:800px; } /* Five-Sixths */
+.tab_container{ width:320px; }
+#sidebar .widget{ width:292px; }
+
+/* 4-Col Grid Sizes */
+.col-6,.col-7,.col-8,.col-9{ width:290px; } /* Quarters */
+.col-6-7-8,.col-7-8-9{ width:717px; } /* Three-Quarters */
+
+/* 6-Col/4-Col Shared Grid Sizes */
+.col-0-1-2,.col-1-2-3,.col-2-3-4,.col-3-4-5, .col-6-7,.col-7-8,.col-8-9{ width:468px; } /* Halves */
+.clearrelated{ clear:none; }
+
+/* THEME STYLES
+-------------------------------------------------------------------*/
+/* Headings */	
+h1 { font-size:2.2em; }
+h2 { font-size:1.5em; }
+h3 { font-size:1em; }
+
+.topsearch					{ float:right; padding:0; }
+.post {  }
+.siteinfo					{ font-size:2.5em; }
+
+/* Related posts */
+.related-posts				{ margin-right:-20px; width:654px; }
+.related-posts .related-post{ display:inline; float:left; width:100px; margin:0 14px 20px 0; }
+
+/* Comments */
+#comments ul				{ float:left; }
+#comments ul li				{ float:left; width:100%; }
+#comments ul ul				{ float:right; width:550px; }
+.commentlist				{ float:left; width:100%; }
+
+.commentcontent				{ float:right; width:515px; padding:18px!important; }
+#comments ul .byuser .commentcontent{ float:right; width:505px; }
+#comments ul li .byuser .commentcontent,
+#comments ul .byuser li .commentcontent{ float:right; width:420px; }
+
+.commentarrow				{ position:absolute; display:block; top:20px; left:-12px; height:23px; width:12px; background:url(../images/commentarrow.png) no-repeat; }
+#comments ul li li .commentarrow { position:absolute; top:20px; left:-12px; height:23px; width:12px; background:url(../images/commentarrow.png) no-repeat; }
+#comments ul li li.byuser .commentarrow,
+#comments ul .byuser .commentarrow { left:-16px; height:23px; width:16px; background:url(../images/commentarrowblue.png) no-repeat; }
+#comments ul .byuser li .commentarrow { position:absolute; top:20px; left:-17px; height:23px; width:12px; background:url(../images/commentarrow.png) no-repeat; }
+a.reply						{ float:right; }
+#comments .avatar			{ margin:0; }
+
+/* Banner placement */
+.banner-top-full-banner { float:right; padding:10px 0 0 0; }
+.banner-bottom-full-banner { float:right; padding:10px 0 0 0; }
+
+#content.floatL { float:left; }
+#content.floatR { float:right; }
+#sidebar.floatL { float:left; }
+#sidebar.floatR { float:right; }
+
+#comments .avatarwrap{ margin:0; }
+
+
+/* DEVELOPER STYLES-------------------------------------------------------------------*/
+
+#sldrRight{width:290px; height:280px;}
+#sldrRight .subscriptionForm input[type=text]{width:238px;}
+.container .logo a img{width:600px;}

@@ -1,0 +1,26 @@
+.siteinfo{ color:#fff; text-shadow:none; }
+#navigation{ float:right; background:none; width:50%; border:none; }
+#header{ float:left; background:none; width:50%; padding:0; margin:0; border:none; }
+
+#fullheadwrap{background: #000; border-top:1px solid #d7d7d7; }
+
+#nav{ display:none; position:absolute; left:-100%; top:43px; z-index:100; background:#fff; list-style:none; width:200%; margin:0; padding:0; border-bottom:2px solid #666; }
+#nav li{ padding:10px 0; border-bottom:1px dotted #c0c0c0; width:100%; }
+#nav li a{ text-shadow:none; color:#000000; }
+#nav .current_page_item a,
+#nav .current_page_item a:hover,
+#nav .current_page_item li a
+#nav li:hover ul, #nav li.sfHover ul,
+#nav .sfHover a, #nav a:hover, #nav li a:hover{ background:none; text-shadow:none; color:inherit; }
+#nav li li{ display:none; }
+
+#nav .mobsocial a.mob-email	{ background:url(../images/header-mail-mob.png) no-repeat; }
+#nav .mobsocial a.mob-fb	{ background:url(../images/header-fb-mob.png) no-repeat; }
+#nav .mobsocial a.mob-tweet	{ background:url(../images/header-tweet-mob.png) no-repeat; }
+#nav .mobsocial a.mob-rss	{ background:url(../images/header-rss-mob.png) no-repeat; }
+
+a#menutoggle.active {
+	background-color: #666666;
+}
+
+#nav li a.mobclose, #nav li a.mobclose:hover{ background:url(../images/mob-close.png) no-repeat; }

@@ -1,0 +1,99 @@
+*** 04.06.20012 - ver 3.1.0
+
+   - Major release
+   - Rewritten core. Now OOP driven
+   - Updated documentation and Advanced documentation
+   - Updated locale files
+   - 1/5 and 5/6 columns sizes added
+   - UI enhanced
+   - Single image element added
+   - Raw HTML element added
+   - Raw JS element added
+   - Drag & Drop works better now
+   - Adding images in galleries is easier now (WP native way)
+   - Bootstrap updated to 2.0.4
+  
+   
+10.05.20012 - ver 3.0.4
+
+   - HTML Comments removed from generated html code. Some themes wrapped them in <p></p> tag :(
+
+
+27.04.20012 - ver 3.0.3
+
+   - Alert box icons on front end added
+   - Image gallery. Now images can be shuffled/randomized
+   - Tested with Advanced TinyMCE plugin. Works OK
+   - Bootstrap updated to 2.0.3
+
+
+15.04.2012 - ver 3.0.2
+
+   - bootstrap.css cleaned, unused classes removed.
+
+
+14.04.2012 - ver 3.0.1
+
+   - Attached images field, now checks for deleted images and if ID doesn't exist - ID is removed.
+   - Cloning tabs, accordion and tour fixed.
+   - google+ added
+   - pinterest added
+   - German translation added. Contributed by aleccs
+   - Polish translation added. Contributed by Bartosz Arendt, Digital Factory
+   - apostrophe \' fixed
+   - Accordion droppable fixed, now it doesn't accept tabs, tour and accordion in it.
+   - .po file updated
+   - .container class name comment out from bootstrap.css file. Because it isn't used withing the plugin, but conflicts with 3rd part themes
+
+
+11.04.2012 - ver 3.0 - *Major release* - Fully rewritten
+
+   - New content blocks added (Accordion, Posts slider, Google maps, Video widget);
+   - Old content blocks extended (FAQ Toggle: default state option added, Image gallery: ability to link each slide individually added, new layout (simple grid) added, now you can enter size for your image WP native way. thumbnail, media, large;
+   - Tabs, Tours and Accordion content block are fully revamped: now they can accept other content elements inside them, as a result you can columns or image gallery right in tabs;
+   - Teaser (posts) grid: new filtering and sorting options added;
+
+
+
+09.02.2012 - ver 2.3.3 - prettyPhoto updated and few js improvements.
+
+07.02.2012 - ver 2.3.2 - js and css files now included with version number.
+
+27.01.2012 - ver 2.3.1 - Added additional "if" check to prevent error message when image can't be found or resized
+
+20.12.2011 - "no link" in VC teaser grid - "Read more" button removed & image wrapped in span; Visual composer now switching default WP content area to Visual mode automatically
+
+12.12.2011
+   - WP 3.3 compatibility;
+   - .clear class renamed to .vc_clear;
+   - Now tabs and tour slides have classname, as a result they can be targeted with css;
+   - If Visual Composer settings are empty, then columns are percent based.
+
+22.09.2011
+   - New content block added - "Text separator".
+
+15.09.2011
+   - .wrapper class renamed to .wpb_wrapper; 
+   - CSS file cleaned and tweaked;
+   - Posts grid -> Categories (narrowing by custom taxonomies) now works with custom post types and regular posts;
+   - New content element added - "Tour section";
+   - Fixed bug with image inserting into tabs;
+   - Checked that js_composer works great with YOAST SEO, some user reported that they don't work together.
+
+01.08.2011 - CSS improvements.
+
+21.06.2011 - Nested tabs bug fixed. Thanks to Justin.
+
+15.06.2011 - Scheduled update. Overall improvements.
+
+13.06.2011 - Now you can generate grid for multiple templates. Eg: For full width page, page with sidebar and so on.
+
+08.06.2011 - New content block *"Call to action box"*
+
+07.06.2011 - Few tweaks to the backend design, posts grid now can show posts in *Carousel*
+
+04.06.2011 - Redesigned backend, new content module *"Button"*
+
+31.05.2011 - Fully rewritten engine, as a result you can add your own shortcodes. Note: ver 2.0 isn't compatible with 1.2 plugin version, please delete old plugin first.
+
+24.05.2011 - New content block *"Widgetised Sidebar"*, few bugfixes.

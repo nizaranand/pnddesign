@@ -1,0 +1,1 @@
+FT Ads Manager is ready for internationalization. The "wp-adpress-US_en.pot" is the file you need to translate. After you translate this file, put the translated file in this directory (eg: wp-adpress-es_ES) and you'll have FT Ads Manager in your language.
