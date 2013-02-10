@@ -1,0 +1,86 @@
+
+.tagline,
+.banner-top-full-banner,
+.topsearch{ display:none; }
+
+#navigation{ float:right; background:none; width:50%; border:none; }
+#header{ float:left; background:none; width:50%; padding:0; margin:0; }
+#footer{ display:none; }
+
+#nav .mobclose{ display:block; }
+
+#fullheadwrap{ display:block; background: #2e3441; /* Old browsers */
+background: -moz-linear-gradient(top, #2e3441 0%, #1d2430 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2e3441), color-stop(100%,#1d2430)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #2e3441 0%,#1d2430 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #2e3441 0%,#1d2430 100%); /* Opera11.10+ */
+background: -ms-linear-gradient(top, #2e3441 0%,#1d2430 100%); /* IE10+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2e3441', endColorstr='#1d2430',GradientType=0 ); /* IE6-9 */
+background: linear-gradient(top, #2e3441 0%,#1d2430 100%); /* W3C */ 
+padding:0; margin:0; position:relative; z-index:100; border-top:2px solid #ea2f39; margin:0 0 20px 0; }
+
+body #header .logo a.siteinfo{ font-size:1em; margin:14px 0 0 0; font-weight:bold; }
+
+#nav{ display:none; position:absolute; left:-100%; top:43px; z-index:100; background:#fff; list-style:none; width:200%; margin:0; padding:0; border-bottom:2px solid #e9242e; }
+#nav li{ padding:10px 0; border-bottom:1px dotted #c0c0c0; width:100%; }
+#nav li a{ text-shadow:none; color:#0061b5; }
+#nav .current_page_item a,
+#nav .current_page_item a:hover,
+#nav .current_page_item li a
+#nav li:hover ul, #nav li.sfHover ul,
+#nav .sfHover a, #nav a:hover, #nav li a:hover{ background:none; text-shadow:none; color:inherit; }
+#nav li li{ display:none; }
+
+a#menutoggle {
+display:block;
+float:right;
+width:105px;
+height:43px;
+text-indent:-9999px;
+background:url(../images/mobile.png) -105px 15px no-repeat;
+-webkit-background-size: 300px 100px;
+margin: 0 -20px 0 0;
+}
+
+a#menutoggle.active {
+background: #333 url(../images/mobile.png) -205px 15px no-repeat;
+background: url(../images/mobile.png) -205px 15px no-repeat #b5000a; /* Old browsers */
+background: url(../images/mobile.png) -205px 15px no-repeat -moz-linear-gradient(top, #b5000a 0%, #dc252f 100%); /* FF3.6+ */
+background: url(../images/mobile.png) -205px 15px no-repeat -webkit-gradient(linear, left top, left bottom, color-stop(0%,#b5000a), color-stop(100%,#dc252f)); /* Chrome,Safari4+ */
+background: url(../images/mobile.png) -205px 15px no-repeat -webkit-linear-gradient(top, #b5000a 0%,#dc252f 100%); /* Chrome10+,Safari5.1+ */
+background: url(../images/mobile.png) -205px 15px no-repeat -o-linear-gradient(top, #b5000a 0%,#dc252f 100%); /* Opera11.10+ */
+background: url(../images/mobile.png) -205px 15px no-repeat -ms-linear-gradient(top, #b5000a 0%,#dc252f 100%); /* IE10+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5000a', endColorstr='#dc252f',GradientType=0 ); /* IE6-9 */
+background: url(../images/mobile.png) -205px 15px no-repeat linear-gradient(top, #b5000a 0%,#dc252f 100%); /* W3C */ 
+-webkit-background-size: 300px 100px;
+}
+
+#nav li.mobsocial{ text-align:center; padding:10px 0; border-bottom:none; }
+#nav .mobsocial a{ width:24px; height:24px; text-indent:-3000em; display:inline-block; float:none; margin:0 5px 0 0; padding:0; }
+#nav .mobsocial a.mob-email, .mobsocial a.mob-email:hover{ background:url(../images/mob-email.png) no-repeat; }
+#nav .mobsocial a.mob-fb, .mobsocial a.mob-fb:hover{ background:url(../images/mob-fb.png) no-repeat; }
+#nav .mobsocial a.mob-tweet, .mobsocial a.mob-tweet:hover{ background:url(../images/mob-tweet.png) no-repeat; }
+#nav .mobsocial a.mob-rss, .mobsocial a.mob-rss:hover{ background:url(../images/mob-rss.png) no-repeat; }
+
+#nav li.mobcloseli{ position:relative; background:none; height:1px; border-bottom:none; padding:0; }
+#nav li a.mobclose, #nav li a.mobclose:hover{ width:131px; height:23px; background:url(../images/mob-close.png) no-repeat; text-indent:-3000em; display:block; position:absolute; bottom:-40px; left:85px; }
+
+.overlay {
+position: absolute;
+top: 0;
+left: 0;
+height: 100%;
+width:100%;
+background: rgba(0,0,0,.5);
+z-index: 99;
+}
+
+.tabs { font-size:0.9em; }
+
+#comments .avatarwrap{ margin:10px 0 0 10px; }
+
+/* DEVELOPER STYLES-------------------------------------------------------------------*/
+
+#sldrRight{width:280px;}
+#sldrRight .subscriptionForm input[type=text]{width:238px;}
+.container .logo a img{width:300px;}

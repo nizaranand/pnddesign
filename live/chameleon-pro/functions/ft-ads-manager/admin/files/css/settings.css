@@ -1,0 +1,11 @@
+TEXTAREA
+{
+	height: 250px;
+	width: 630px;
+	max-width: 630px;
+	min-width: 630px;
+	margin-right:20px;
+	font-family: Consolas;
+	font-size: 14px;
+	line-height: 18px;
+}
