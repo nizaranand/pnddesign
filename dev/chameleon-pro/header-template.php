@@ -342,7 +342,18 @@ wp_head();
 	});
 
 </script>	
+<script src="<?php bloginfo('template_directory'); ?>/assets/js/jquery.rwdImageMaps.js"></script>
+<script src="<?php bloginfo('template_directory'); ?>/assets/js/jquery.rwdImageMaps.min.js"></script>
 
+<script type="text/javascript">
+
+	jQuery.noConflict();
+	jQuery(document).ready(function(){
+    		
+	    	jQuery('img[usemap]').rwdImageMaps();
+	});
+
+</script>
 </head>
 
 
