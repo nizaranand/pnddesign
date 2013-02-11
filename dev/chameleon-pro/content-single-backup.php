@@ -107,33 +107,18 @@
 
 
 	<?php
-
-	// If a user has filled out their description, show a bio on their entries.
-
-	if ( get_the_author_meta( 'description' ) ) : ?>
-
+        $author_id = get_the_author_meta( 'ID' );
+	if ( get_field('desc', 'user_'. $author_id ) ) : ?>
 	<div class="author-details">
-
-		<div class="author-avatar">
-
-			<a href="<?php echo esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ); ?>"><?php echo get_avatar( get_the_author_meta( 'user_email' ), 75 ); ?></a>
-
-		</div>
-
-		<div class="author-details-info">
-
-			<?php $author_id = get_the_author_meta( 'ID' );
-			var_dump($author_id);
-			$author_desc = get_field('desc', 'user_'. $author_id ); 
-			var_dump($author_desc);
-			?>
-
-			<?php //the_author_meta( 'description' ); ?>		
-
-		</div>
-
+            <div class="author-avatar">
+                <a href="<?php echo esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ); ?>"><?php echo get_avatar( get_the_author_meta( 'user_email' ), 75 ); ?></a>
+            </div>
+            <div class="author-details-info">
+                <?php $author_id = get_the_author_meta( 'ID' );
+                $author_desc = get_field('desc', 'user_'. $author_id ); 
+                echo $author_desc; ?>		
+            </div>
 	</div>
-
 	<?php endif; ?>
 
 	

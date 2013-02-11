@@ -29,10 +29,6 @@ get_header(); ?>
         
 <?php } ?>
 
-
-
-
-
 	<?php while ( have_posts() ) : the_post(); ?>
             <div class="row">
                 <div class="col-0-1-3">
@@ -41,36 +37,27 @@ get_header(); ?>
            </div>     
 	<?php endwhile; // end of the loop. ?>
     
-    
-    
-
 	<?php
-
 	// If a user has filled out their description, show a bio on their entries.
-
-	if ( get_the_author_meta( 'description' ) ) : ?>
+        $author_id = get_the_author_meta( 'ID' );
+	if ( get_field('desc', 'user_'. $author_id ) ) : ?>
         <div class="row">
             <div class="col-0-1-3">
                 <div class="author-details">
-
-                        <div class="author-avatar">
-
-                                <a href="<?php echo esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ); ?>"><?php echo get_avatar( get_the_author_meta( 'user_email' ), 75 ); ?></a>
-
-                        </div>
-
-                        <div class="author-details-info">
-                 <h3 class="author-title">About <span><?php printf( __( '%s', 'twentyten' ), get_the_author() ); ?></span></h3>
-
-                                <?php the_author_meta( 'description' ); ?>	
-                    <div id="author-link">
-                                        <a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ) ); ?>" rel="author">
-                                        <?php printf( __( 'View all posts by %s <span class="meta-nav">&rarr;</span>', 'twentyten' ), get_the_author() ); ?>
-                                        </a>
-                                </div><!-- #author-link	-->	
-
-                        </div>
-
+                    <div class="author-avatar">
+                        <a href="<?php echo esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ); ?>"><?php echo get_avatar( get_the_author_meta( 'user_email' ), 75 ); ?></a>
+                    </div>
+                    <div class="author-details-info">
+                        <h3 class="author-title">About <span><?php printf( __( '%s', 'twentyten' ), get_the_author() ); ?></span></h3>
+                        <?php $author_id = get_the_author_meta( 'ID' );
+                        $author_desc = get_field('desc', 'user_'. $author_id ); 
+                        echo $author_desc; ?>	
+                        <div id="author-link">
+                            <a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ) ); ?>" rel="author">
+                                <?php printf( __( 'View all posts by %s <span class="meta-nav">&rarr;</span>', 'twentyten' ), get_the_author() ); ?>
+                            </a>
+                        </div><!-- #author-link	-->	
+                    </div>
                 </div>
             </div>
         </div>    
