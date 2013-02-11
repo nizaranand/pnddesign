@@ -77,6 +77,7 @@ if ( $site_description && ( is_home() || is_front_page() ) )
 <!-- CSS -->
 
 <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/css/base.css" type="text/css" media="all" />
+<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/css/custom.css" type="text/css" media="all" />
 
 <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/css/320_grid.css" type="text/css" media="screen and (max-width: 320px)" />
 
