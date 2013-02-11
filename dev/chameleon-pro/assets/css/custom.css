@@ -2,3 +2,15 @@
     top:14%;
     position:absolute;
 }
+
+.post { 
+    margin-bottom:0px; 
+} 
+
+.post p {
+    margin:0px;
+} 
+
+.post p img { 
+    padding:0px; 
+}
